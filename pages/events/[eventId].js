@@ -10,7 +10,7 @@ import ErrorAlert from '../../components/ui/error-alert';
 function EventDetailPage() {
   const router = useRouter();
 
-  const eventId = router.query.eventId;
+  const eventId = router.query.eventid;
   const event = getEventById(eventId);
 
   if (!event) {
